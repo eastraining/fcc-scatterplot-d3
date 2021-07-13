@@ -1,0 +1,25 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 98vh;
+    color: black;
+}
+
+.container {
+    background-color: white;
+}
+
+#title {
+    color: black;
+    text-align: center
+}
+
+#tooltip {
+    text-align: center;
+}
+
+.bar {
+    fill: rgb(10, 49, 97);
+}
