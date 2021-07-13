@@ -5,21 +5,43 @@ body {
     align-items: center;
     min-height: 98vh;
     color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
     background-color: white;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.2em;
 }
 
 #title {
-    color: black;
-    text-align: center
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#subtitle {
+    text-align: center;
+    font-size: 16px;
 }
 
 #tooltip {
-    text-align: center;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0px 0px 1.5px 0.5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.2em;
+    padding: 2px;
+    font-size: 10px;
+    line-height: 175%;
 }
 
-.bar {
-    fill: rgb(10, 49, 97);
+#legend {
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.axis-label {
+    font-size: 12px;
+    /* font-weight: bold; */
+    /* text-decoration: underline; */
+    font-style: italic;
 }
